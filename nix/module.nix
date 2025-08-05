@@ -328,7 +328,7 @@ let
           param = "LutDataBuf";
         }
         {
-          value = length params.lut.data;
+          value = toString (length params.lut.data);
           param = "LutSize";
         }
       ];
