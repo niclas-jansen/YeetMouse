@@ -324,11 +324,11 @@ let
           param = "AccelerationMode";
         }
         {
-          value = concatStringsSep ";" params.lut.data;
+          value = concatStringsSep ";" params.data;
           param = "LutDataBuf";
         }
         {
-          value = toString (length params.lut.data);
+          value = toString (length params.data);
           param = "LutSize";
         }
       ];
